@@ -5,11 +5,6 @@ The official code of Refinement Provenance Inference: Detecting LLM-Refined Trai
 
 ![alt text](assets/overview.png)
 
-It follows the paper's two-stage workflow:
-- **Stage 1 (shadow training):** build an instance-disjoint shadow mixture (raw/refined prompts), LoRA fine-tune a shadow model from a base checkpoint, extract teacher-forced logit features, train a supervised-contrastive encoder, then train a lightweight linear head.
-- **Stage 2 (victim inference):** LoRA fine-tune a victim model on its own (disjoint) raw/refined mixture, extract the same features, and apply the transferred attacker to infer whether each instance was trained with a raw or refined prompt.
-
-
 ## Quick Start
 ### 0. Install
 
