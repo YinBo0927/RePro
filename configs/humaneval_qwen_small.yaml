@@ -1,0 +1,32 @@
+dataset: humaneval
+rho: 0.5
+seed: 123
+
+base_model: Qwen/Qwen2.5-1.5B-Instruct   # replace with your HF id
+ctx_len: 768
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+
+sft:
+  max_steps: 500
+  lr: 2.0e-4
+  warmup_ratio: 0.03
+  per_device_train_batch_size: 2
+  gradient_accumulation_steps: 16
+  bf16: true
+
+features:
+  topk: [1, 5, 10]
+  nll_quantiles: [0.5, 0.9, 0.95]
+  use_uplift: true
+
+attacker:
+  hidden: 256
+  emb_dim: 128
+  temperature: 0.1
+  batch_size: 256
+  epochs: 30
+  lr: 1.0e-3
