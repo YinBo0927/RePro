@@ -7,7 +7,7 @@
 Bo Yin, Qi Li, Runpeng Yu, Xinchao Wang
 
 > [!IMPORTANT]
-> **We will release the weights on huggingface in the future**
+> **We will release the weights (both attacker and fine-tuned model) on huggingface in the future and add commercial LLM refiner.**
 
 ## Overview
 
