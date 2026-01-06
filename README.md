@@ -7,6 +7,7 @@
 Bo Yin\*, Qi Li\*, Runpeng Yu, Xinchao Wang†
 
 National University of Singapore
+
 \* Equal contribution.  
 † Corresponding author: xinchao@nus.edu.sg
 
