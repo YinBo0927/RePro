@@ -1,6 +1,10 @@
 # Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior
-[![arXiv](https://img.shields.io/badge/arXiv-2601.01966 -b31b1b.svg)](https://arxiv.org/abs/2601.01966 )
 
+[![arXiv](https://img.shields.io/badge/arXiv-2601.01966-b31b1b.svg)](https://arxiv.org/abs/2601.01966)
+
+
+**Authors:**  
+Bo Yin, Qi Li, Runpeng Yu, Xinchao Wang
 
 > [!IMPORTANT]
 > **We will release the weights on huggingface in the future**
@@ -88,3 +92,19 @@ python scripts/eval_victim.py   --features_npz artifacts/features_victim_test.np
 
 ## Result
 ![alt text](assets/result.png)
+
+## Citation
+
+If you find this work useful, please cite:
+
+```bash
+@misc{yin2026refinementprovenanceinferencedetecting,
+      title={Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior}, 
+      author={Bo Yin and Qi Li and Runpeng Yu and Xinchao Wang},
+      year={2026},
+      eprint={2601.01966},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2601.01966}, 
+}
+```
