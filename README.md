@@ -6,8 +6,9 @@
 **Authors:**  
 Bo Yin\*, Qi Li\*, Runpeng Yu, Xinchao Wang†
 
+National University of Singapore
 \* Equal contribution.  
-† Corresponding author.
+† Corresponding author: xinchao@nus.edu.sg
 
 > [!IMPORTANT]
 > **We will release the weights (both attacker and fine-tuned model) on huggingface in the future and add commercial LLM refiner.**
