@@ -1,5 +1,9 @@
-# RePro
-The official code of Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior
+# Refinement Provenance Inference: Detecting LLM-Refined Training Prompts from Model Behavior
+[![arXiv](https://img.shields.io/badge/arXiv-2601.01966 -b31b1b.svg)](https://arxiv.org/abs/2601.01966 )
+
+
+> [!IMPORTANT]
+> **We will release the weights on huggingface in the future**
 
 ## Overview
 
